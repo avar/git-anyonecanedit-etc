@@ -1,6 +1,0 @@
-.           235809  IN  NS  resolver1.london.linode.com.
-.           235809  IN  NS  resolver2.london.linode.com.
-.           235809  IN  NS  resolver3.london.linode.com.
-resolver1.london.linode.com. 1206856 IN  A   109.74.192.20
-resolver2.london.linode.com. 1206856 IN  A   109.74.193.20
-resolver3.london.linode.com. 1206856 IN  A   109.74.194.20
