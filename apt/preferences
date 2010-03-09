@@ -1,4 +1,7 @@
-Package: *
-Pin: release a=testing
-Pin-Priority: 650
+Package: grub
+Pin: version 0.97*
+Pin-Priority: 100
 
+Package: grub-pc
+Pin: version 1.98*
+Pin-Priority: 100
