@@ -46,3 +46,4 @@ messagebus:x:106:
 mysql:x:107:
 avar:x:1000:
 chad:x:1001:
+git-svn-mirror:x:1002:avar,chad
