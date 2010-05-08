@@ -1,0 +1,29 @@
+# remember to run "sudo postfix reload" after making changes
+
+myhostname = git.anyonecanedit.org
+
+# Debian specific:  Specifying a file name will cause the first
+# line of that file to be used as the name.  The Debian default
+# is /etc/mailname.
+myorigin = /etc/mailname
+
+smtpd_banner = $myhostname ESMTP $mail_name
+
+# disable comsat network service
+biff = no
+
+# appending .domain is the MUA's job.
+append_dot_mydomain = no
+
+# only relay mail from localhost
+mynetworks = 127.0.0.0/8
+
+# only use the local aliases database, not NIS
+alias_maps = $alias_database
+
+# don't do local delivery for any domains
+mydestination =
+
+# use virtual aliases for our domains
+virtual_alias_domains = localhost git.anyonecanedit.org
+virtual_alias_maps = hash:/etc/postfix/virtual

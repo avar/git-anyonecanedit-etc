@@ -1,0 +1,13 @@
+# remember to run "sudo postmap /etc/postfix/virtual" after making changes
+
+# "Real" users
+avar@git.anyonecanedit.org avarab@gmail.com
+chad@git.anyonecanedit.org innocentkiller@gmail.com
+
+# "Fake" users
+git-svn-mirror@git.anyonecanedit.org avarab@gmail.com
+
+# Wildcard catching. TODO: set up mailmain and send this to a mailing
+# list
+@git.anyonecanedit.org avarab@gmail.com
+@localhost             avarab@gmail.com
