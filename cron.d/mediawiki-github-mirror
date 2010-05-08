@@ -1,0 +1,5 @@
+# MediaWiki GitHub mirror at http://github.com/mediawiki
+
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+*/10 * * * * git-svn-mirror nice -n 15 ionice -c 2 -n 6 cronjob -j git-svn-mirror -c '~git-svn-mirror/g/mediawiki-mirror/mediawiki-mirror.sh'
