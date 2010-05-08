@@ -47,3 +47,10 @@ mysql:x:107:
 avar:x:1000:
 chad:x:1001:
 git-svn-mirror:x:1002:avar,chad
+gerrit2:x:1003:
+avahi:x:108:
+netdev:x:109:
+ftp:x:110:ftp
+ssl-cert:x:111:
+postfix:x:112:
+postdrop:x:113:
