@@ -54,3 +54,5 @@ ftp:x:110:ftp
 ssl-cert:x:111:
 postfix:x:112:
 postdrop:x:113:
+ssh-rsa:x:1004:
+artagnon:x:1005:
