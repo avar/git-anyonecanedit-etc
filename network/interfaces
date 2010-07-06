@@ -8,5 +8,5 @@ iface eth0 inet static
         broadcast 68.169.45.255
         network 68.169.44.0
         gateway 68.169.44.1
-        dns-nameservers 206.130.96.6
+        dns-nameservers 8.8.8.8
         dns-search anyonecanedit.org
